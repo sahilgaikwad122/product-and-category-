@@ -20,6 +20,8 @@ public class App {
 		s1.setName("perfume");
 		System.out.println(sd1.insertStudent(s1));
 		
+		
+		
 		ProductDao pd1 = new ProductDao();
 		Product s2 = new Product();
 		s2.setName("jeans");
@@ -28,15 +30,25 @@ public class App {
 		System.out.println(pd1.insertStudentt(s2));
 	
 		
+		
+		
+		
         CategoryDao sd = new CategoryDao();
 	 	
         Category s11 = sd.findCategoryById(1);
 		System.out.println(s11);
 	
 		
+		
+		
+		
 		ProductDao pd = new ProductDao();
 		Product s111 = pd.findProductById(1);
 		System.out.println(s111);
+		
+		
+		
+		
 		
 	/*	CategoryDao sd1 = new CategoryDao();
 	 	
@@ -53,8 +65,14 @@ public class App {
 		System.out.println(pd11.updateProduct(s1111));
 	
 		
+		
+		
+		
 	/*	CategoryDao sd = new CategoryDao();
 		System.out.println(sd.deleteCategoryById(3));
+	
+	
+	
 	
 		ProductDao pd = new ProductDao();
 		System.out.println(pd.deleteProductById(1));
