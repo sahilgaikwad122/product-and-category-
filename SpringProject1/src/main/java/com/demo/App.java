@@ -14,7 +14,7 @@ public class App {
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
 		
-		
+		/*categorydao*/
 		CategoryDao sd1 = new CategoryDao();
 		Category s1 = new Category();
 		s1.setName("perfume");
